@@ -8,35 +8,25 @@ import {name as appName} from './app.json';
 
 AppRegistry.registerComponent(appName, () => App);
 
-const SlackBot = require("slackbots");
-const http = require("http");
-const fs = require("fs");
-const Utility = require("./utility");
+var SlackBot = require('slackbots');
 
-const config = JSON.parse(fs.readFileSync("config.json"));
-const package = JSON.parse(fs.readFileSync("package.json"));
+// create a bot
+var bot = new SlackBot({
+    token: 'xoxb-12666592240-972641672128-umbgL64GFzb2NlK0rLfZuYc3',  
+    name: 'snackbothack2020'
+});
 
-const commands = 
-
-function startBot() {
-    const bot = new SlackBot(config["bot"]);
-    const commandObjects = 
-
-    bot.on("start", () => {
-        Utility.logData("Bot has started");
-    });
-
-    bot.on("open", () => {
-        Utility.logData("Bot has opened");
-    });
-
-    bot.on("close", () => {
-        Utility.logData("Bot has closed");
-        startBot();
-    });
-
-    bot.on("error", data => {
-        Utility.logData("Error occurrred", data);
-    });
-
-    startBot();
+bot.on('start', function() {
+    var params = {
+        icon_emoji: ':cat:'
+    };
+    
+    bot.postMessageToChannel('general', 'meow!', params);
+    
+    bot.postMessageToUser('aditi', 'meow!', params); 
+    
+    
+    bot.postMessageToUser('aditi', 'meow!', { 'slackbot': true, icon_emoji: ':cat:' }); 
+    
+    bot.postMessageToGroup('snack_bot', 'meow!', params); 
+});
