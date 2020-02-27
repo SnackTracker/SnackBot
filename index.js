@@ -12,8 +12,8 @@ var SlackBot = require('slackbots');
 
 // create a bot
 var bot = new SlackBot({
-    token: 'xoxb-12666592240-972641672128-umbgL64GFzb2NlK0rLfZuYc3',  
-    name: 'snackbothack2020'
+    token: '',  
+    name: ''
 });
 
 bot.on('start', function() {
