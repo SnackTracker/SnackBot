@@ -2,6 +2,8 @@
   "name": "SnackBot",
   "version": "0.0.1",
   "private": true,
+  "description": "slck bot for snacks",
+  "main": "index.js",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -9,6 +11,10 @@
     "test": "jest",
     "lint": "eslint ."
   },
+
+  "author": "abc",
+  "license": "abc",
+
   "dependencies": {
     "react": "16.9.0",
     "react-native": "0.61.5"

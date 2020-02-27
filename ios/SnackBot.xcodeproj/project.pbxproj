@@ -44,8 +44,8 @@
 		00E356EE1AD99517003FC87E /* SnackBotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnackBotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* SnackBotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnackBotTests.m; sourceTree = "<group>"; };
-		04361FD29D62F7606A78AFD1 /* Pods-SnackBotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnackBotTests.debug.xcconfig"; path = "Target Support Files/Pods-SnackBotTests/Pods-SnackBotTests.debug.xcconfig"; sourceTree = "<group>"; };
-		07306926C591C6FE0EDEAF01 /* Pods-SnackBotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnackBotTests.release.xcconfig"; path = "Target Support Files/Pods-SnackBotTests/Pods-SnackBotTests.release.xcconfig"; sourceTree = "<group>"; };
+		04361FD29D62F7606A78AFD1 /* Pods-SnackBotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnackBotTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnackBotTests/Pods-SnackBotTests.debug.xcconfig"; sourceTree = "<group>"; };
+		07306926C591C6FE0EDEAF01 /* Pods-SnackBotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnackBotTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnackBotTests/Pods-SnackBotTests.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* SnackBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnackBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SnackBot/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SnackBot/AppDelegate.m; sourceTree = "<group>"; };
@@ -54,17 +54,17 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SnackBot/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SnackBot/main.m; sourceTree = "<group>"; };
 		1EDE4924ECE49017132CB706 /* libPods-SnackBotTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SnackBotTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		27337B5784347A7D5B6EF565 /* Pods-SnackBot-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnackBot-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-SnackBot-tvOSTests/Pods-SnackBot-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		27337B5784347A7D5B6EF565 /* Pods-SnackBot-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnackBot-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnackBot-tvOSTests/Pods-SnackBot-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* SnackBot-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SnackBot-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* SnackBot-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SnackBot-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		39E27EE84DE84422653E1FBE /* Pods-SnackBot-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnackBot-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-SnackBot-tvOSTests/Pods-SnackBot-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		682CCAF2E41AE7EC49DC3741 /* Pods-SnackBot-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnackBot-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-SnackBot-tvOS/Pods-SnackBot-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		39E27EE84DE84422653E1FBE /* Pods-SnackBot-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnackBot-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnackBot-tvOSTests/Pods-SnackBot-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		682CCAF2E41AE7EC49DC3741 /* Pods-SnackBot-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnackBot-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnackBot-tvOS/Pods-SnackBot-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		6ABEF283FCADB394554AFA66 /* libPods-SnackBot-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SnackBot-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96F7657E60E1C5ED3FD67507 /* libPods-SnackBot.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SnackBot.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7CC48A0FA511FC4DF18C1E5 /* libPods-SnackBot-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SnackBot-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C730C3F8DE47CCF20E790A87 /* Pods-SnackBot-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnackBot-tvOS.release.xcconfig"; path = "Target Support Files/Pods-SnackBot-tvOS/Pods-SnackBot-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		E0E164C1389014AE361BD384 /* Pods-SnackBot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnackBot.debug.xcconfig"; path = "Target Support Files/Pods-SnackBot/Pods-SnackBot.debug.xcconfig"; sourceTree = "<group>"; };
-		EA95D2CF823A2AFFA9078A63 /* Pods-SnackBot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnackBot.release.xcconfig"; path = "Target Support Files/Pods-SnackBot/Pods-SnackBot.release.xcconfig"; sourceTree = "<group>"; };
+		C730C3F8DE47CCF20E790A87 /* Pods-SnackBot-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnackBot-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnackBot-tvOS/Pods-SnackBot-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		E0E164C1389014AE361BD384 /* Pods-SnackBot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnackBot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnackBot/Pods-SnackBot.debug.xcconfig"; sourceTree = "<group>"; };
+		EA95D2CF823A2AFFA9078A63 /* Pods-SnackBot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnackBot.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnackBot/Pods-SnackBot.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -194,7 +194,7 @@
 				04361FD29D62F7606A78AFD1 /* Pods-SnackBotTests.debug.xcconfig */,
 				07306926C591C6FE0EDEAF01 /* Pods-SnackBotTests.release.xcconfig */,
 			);
-			path = Pods;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,18 +289,20 @@
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = FZ5GU5FL8V;
+						DevelopmentTeam = 782Y2GCPDW;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = FZ5GU5FL8V;
+						DevelopmentTeam = 782Y2GCPDW;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 782Y2GCPDW;
 						ProvisioningStyle = Automatic;
 					};
 					2D02E48F1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 782Y2GCPDW;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2D02E47A1E0B4A5D006451C7;
 					};
@@ -587,7 +589,7 @@
 			baseConfigurationReference = 04361FD29D62F7606A78AFD1 /* Pods-SnackBotTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = FZ5GU5FL8V;
+				DEVELOPMENT_TEAM = 782Y2GCPDW;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -612,7 +614,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = FZ5GU5FL8V;
+				DEVELOPMENT_TEAM = 782Y2GCPDW;
 				INFOPLIST_FILE = SnackBotTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -634,7 +636,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = FZ5GU5FL8V;
+				DEVELOPMENT_TEAM = 782Y2GCPDW;
 				INFOPLIST_FILE = SnackBot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -642,7 +644,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.SnackBotAU;
 				PRODUCT_NAME = SnackBot;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -655,7 +657,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FZ5GU5FL8V;
+				DEVELOPMENT_TEAM = 782Y2GCPDW;
 				INFOPLIST_FILE = SnackBot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -663,7 +665,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.SnackBotAU;
 				PRODUCT_NAME = SnackBot;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -681,6 +683,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 782Y2GCPDW;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "SnackBot-tvOS/Info.plist";
@@ -710,6 +713,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 782Y2GCPDW;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "SnackBot-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -736,6 +740,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 782Y2GCPDW;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "SnackBot-tvOSTests/Info.plist";
@@ -764,6 +769,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 782Y2GCPDW;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "SnackBot-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
